@@ -1,0 +1,62 @@
+
+.center {
+
+    display: block;
+    margin-top: 150px;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+form{
+    text-align: center;
+}
+.search-inp{
+    
+    width: 500px;
+    height: 39px;
+    margin: 5px;
+    text-align: left;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://th.bing.com/th/id/OIP.rsZB5iKwX6totSXcV94swQHaHN?pid=ImgDet&rs=1');
+    background-size: 15px 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+.flex-item + .flex-item {
+    margin-left: 10px;
+}
+  
+  .button {
+    margin-top: 1px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+  }
+
+.button:hover{
+    background-color: rgb(216, 215, 215);
+}
+
